@@ -1,0 +1,1714 @@
+2017-09-22 11:42:15,174 [Thread-1:2960] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/loginAction/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\login.py", line 15, in loginResult
+    name = request.POST["name"]
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'name'"
+2017-10-13 11:38:04,400 [Thread-7:5936] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-13 12:17:57,248 [Thread-3:5376] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/test/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: tokenTask() takes 0 positional arguments but 1 was given
+2017-10-13 12:26:16,679 [Thread-2:5564] [django.request:152] [base:get_response] [WARNING]- Not Found: /
+2017-10-13 12:37:34,873 [Thread-2:1652] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/test/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: tokenTask() takes 0 positional arguments but 1 was given
+2017-10-16 15:23:19,281 [Thread-7:4404] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-17 11:04:02,769 [Thread-3:1848] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/apiweixin/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'signature'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\weixincom.py", line 9, in api_weixincom
+    signature = request.GET["signature"]
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'signature'"
+2017-10-17 16:32:44,975 [Thread-4:8100] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/
+2017-10-17 16:32:49,249 [Thread-5:2380] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/
+2017-10-17 16:33:24,044 [Thread-7:7304] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:25,894 [Thread-8:2584] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:36,696 [Thread-3:7752] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:37,684 [Thread-4:552] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:38,343 [Thread-5:3540] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:38,899 [Thread-6:4208] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:39,602 [Thread-7:1584] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:40,549 [Thread-8:7736] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:41,582 [Thread-9:4024] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:44,784 [Thread-10:3364] [django.request:152] [base:get_response] [WARNING]- Not Found: /MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:45,925 [Thread-11:7600] [django.request:152] [base:get_response] [WARNING]- Not Found: /MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:46,612 [Thread-12:5452] [django.request:152] [base:get_response] [WARNING]- Not Found: /MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:47,206 [Thread-13:7572] [django.request:152] [base:get_response] [WARNING]- Not Found: /MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:47,806 [Thread-14:2964] [django.request:152] [base:get_response] [WARNING]- Not Found: /MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:48,598 [Thread-15:7596] [django.request:152] [base:get_response] [WARNING]- Not Found: /MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:49,477 [Thread-16:4192] [django.request:152] [base:get_response] [WARNING]- Not Found: /MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:50,479 [Thread-17:7060] [django.request:152] [base:get_response] [WARNING]- Not Found: /MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:51,772 [Thread-18:5508] [django.request:152] [base:get_response] [WARNING]- Not Found: /MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:33:59,396 [Thread-19:7968] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:02,834 [Thread-20:6324] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:21,770 [Thread-22:6936] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:22,655 [Thread-23:8152] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:23,254 [Thread-24:6632] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:23,885 [Thread-25:7336] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:24,519 [Thread-26:7052] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:25,135 [Thread-27:7484] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:25,664 [Thread-28:8096] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:26,433 [Thread-29:4532] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:27,103 [Thread-30:7684] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:29,225 [Thread-31:7268] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:30,056 [Thread-32:3324] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:30,708 [Thread-33:1576] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:31,377 [Thread-34:8088] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:32,141 [Thread-35:5336] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:32,805 [Thread-36:1460] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:33,607 [Thread-37:1260] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:34,509 [Thread-38:8028] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:35,204 [Thread-39:7904] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:36,183 [Thread-40:7264] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:37,079 [Thread-41:7992] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:37,828 [Thread-42:5580] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:38,492 [Thread-43:5632] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:39,332 [Thread-44:7248] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:40,122 [Thread-45:6280] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:34:40,954 [Thread-46:6340] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:38:27,542 [Thread-3:6412] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-17 16:38:31,821 [Thread-4:1488] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:15:11,354 [Thread-3:4816] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/
+2017-10-24 11:15:11,531 [Thread-4:800] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-24 11:15:42,582 [Thread-5:4228] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/static/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:15:46,379 [Thread-6:7220] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/static/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:15:47,415 [Thread-7:5284] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/static/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:15:48,117 [Thread-8:7936] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/static/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:16:02,822 [Thread-9:5440] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:16:08,602 [Thread-10:6136] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:16:09,709 [Thread-11:6280] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:16:10,525 [Thread-12:4460] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:16:11,333 [Thread-13:3636] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:16:12,162 [Thread-14:7472] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:16:13,044 [Thread-15:6628] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:16:13,900 [Thread-16:2292] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:16:14,760 [Thread-17:7328] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:16:15,986 [Thread-18:6740] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 11:16:16,848 [Thread-19:3212] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/MP_verify_sg9VcvfPWosULKNp.txt
+2017-10-24 15:28:51,802 [Thread-3:7224] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 19, in callback
+    result = requests.Session.get(address, verify=False)
+TypeError: get() missing 1 required positional argument: 'url'
+2017-10-24 15:29:11,544 [Thread-7:1820] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 19, in callback
+    result = requests.Session.get(address, verify=False)
+TypeError: get() missing 1 required positional argument: 'url'
+2017-10-24 15:31:25,266 [Thread-8:5792] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 19, in callback
+    result = requests.Session.get(address, verify=False)
+TypeError: get() missing 1 required positional argument: 'url'
+2017-10-24 15:35:28,976 [Thread-3:8164] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 20, in callback
+    result = requests.Session.get(address, verify=False)
+TypeError: get() missing 1 required positional argument: 'url'
+2017-10-24 15:40:56,832 [Thread-5:7440] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:41:00,726 [Thread-6:8016] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:41:17,505 [Thread-8:8124] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:42:03,011 [Thread-10:7568] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:42:53,718 [Thread-12:7724] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:42:55,177 [Thread-13:1436] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:42:56,085 [Thread-14:5548] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:42:56,983 [Thread-15:7412] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:46:49,742 [Thread-4:4760] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:46:50,496 [Thread-5:6792] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:46:51,408 [Thread-6:1044] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:46:54,137 [Thread-7:7968] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:47:00,788 [Thread-8:6352] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:47:09,739 [Thread-9:7036] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-24 15:47:17,992 [Thread-10:6136] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/callback/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\api\wechat.py", line 24, in callback
+    accessToke = content["access_token"]
+KeyError: 'access_token'
+2017-10-30 10:34:19,472 [Thread-3:6596] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/index/
+2017-10-30 10:36:02,664 [Thread-2:5312] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/index/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\wechat.py", line 6, in index
+    return render_to_response('index.html')
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2017-10-30 10:36:04,100 [Thread-6:3884] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/index/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\wechat.py", line 6, in index
+    return render_to_response('index.html')
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2017-10-30 10:36:04,893 [Thread-9:6608] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/index/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\wechat.py", line 6, in index
+    return render_to_response('index.html')
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2017-10-30 11:39:23,094 [Thread-746:7180] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/index/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\wechat.py", line 6, in index
+    return render_to_response('wechat/index.html')
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 515, in parse
+    raise self.error(token, e)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 513, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\contrib\staticfiles\templatetags\staticfiles.py", line 19, in do_static
+    return _do_static(parser, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\templatetags\static.py", line 158, in do_static
+    return StaticNode.handle_token(parser, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\templatetags\static.py", line 132, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/icon_intro.png' from 'images/icon_intro.png'
+2017-10-30 11:39:24,838 [Thread-749:6880] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/index/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\wechat.py", line 6, in index
+    return render_to_response('wechat/index.html')
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 515, in parse
+    raise self.error(token, e)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 513, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\contrib\staticfiles\templatetags\staticfiles.py", line 19, in do_static
+    return _do_static(parser, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\templatetags\static.py", line 158, in do_static
+    return StaticNode.handle_token(parser, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\templatetags\static.py", line 132, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/icon_intro.png' from 'images/icon_intro.png'
+2017-10-30 11:39:25,564 [Thread-752:6908] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/index/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\wechat.py", line 6, in index
+    return render_to_response('wechat/index.html')
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 515, in parse
+    raise self.error(token, e)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 513, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\contrib\staticfiles\templatetags\staticfiles.py", line 19, in do_static
+    return _do_static(parser, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\templatetags\static.py", line 158, in do_static
+    return StaticNode.handle_token(parser, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\templatetags\static.py", line 132, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/icon_intro.png' from 'images/icon_intro.png'
+2017-10-30 11:39:26,253 [Thread-755:8104] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/index/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\wechat.py", line 6, in index
+    return render_to_response('wechat/index.html')
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 515, in parse
+    raise self.error(token, e)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 513, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\contrib\staticfiles\templatetags\staticfiles.py", line 19, in do_static
+    return _do_static(parser, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\templatetags\static.py", line 158, in do_static
+    return StaticNode.handle_token(parser, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\templatetags\static.py", line 132, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/icon_intro.png' from 'images/icon_intro.png'
+2017-10-30 11:41:10,153 [Thread-776:3600] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/index/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 507, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\wechat.py", line 6, in index
+    return render_to_response('wechat/index.html')
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 509, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 571, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'static'. Did you forget to register or load this tag?
+2017-10-30 11:41:11,431 [Thread-779:5632] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/index/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 507, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\wechat.py", line 6, in index
+    return render_to_response('wechat/index.html')
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 509, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 571, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'static'. Did you forget to register or load this tag?
+2017-11-02 11:13:07,887 [Thread-69:6852] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/index/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\wechat.py", line 6, in index
+    return render_to_response('wechat/index.html')
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 21, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 515, in parse
+    raise self.error(token, e)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 513, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\contrib\staticfiles\templatetags\staticfiles.py", line 19, in do_static
+    return _do_static(parser, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\templatetags\static.py", line 158, in do_static
+    return StaticNode.handle_token(parser, token)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\templatetags\static.py", line 132, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/icon_nav_icons.png' from 'images/icon_nav_icons.png'
+2017-11-02 14:13:33,270 [Thread-8:8324] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-11-02 14:24:45,831 [Thread-3:6012] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    return render(request, "/wechat/index.html", {"userinfo":json.load(str)})
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 296, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+2017-11-02 14:26:32,716 [Thread-3:8692] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    return render(request, "/wechat/index.html", {"userinfo":json.dump(str)})
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:26:34,441 [Thread-4:8040] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    return render(request, "/wechat/index.html", {"userinfo":json.dump(str)})
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:28:21,073 [Thread-3:6612] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dump(str)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:28:22,482 [Thread-4:8956] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dump(str)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:28:23,246 [Thread-5:6284] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dump(str)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:28:23,997 [Thread-6:7308] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dump(str)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:30:57,331 [Thread-3:1228] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dump(str)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:30:58,347 [Thread-4:8728] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dump(str)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:30:58,897 [Thread-5:8500] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dump(str)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:30:59,317 [Thread-6:9148] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dump(str)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:30:59,797 [Thread-7:8224] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dump(str)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:31:00,268 [Thread-8:8304] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dump(str)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:31:00,708 [Thread-9:8940] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dump(str)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2017-11-02 14:32:37,484 [Thread-3:7304] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:32:38,708 [Thread-4:1612] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:32:39,614 [Thread-5:8060] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:33:55,738 [Thread-3:4208] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:33:56,797 [Thread-4:8636] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:34:35,705 [Thread-3:8416] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dumps(str).loads(str)
+AttributeError: 'str' object has no attribute 'loads'
+2017-11-02 14:34:36,891 [Thread-4:8240] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dumps(str).loads(str)
+AttributeError: 'str' object has no attribute 'loads'
+2017-11-02 14:34:37,756 [Thread-5:8320] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usr = json.dumps(str).loads(str)
+AttributeError: 'str' object has no attribute 'loads'
+2017-11-02 14:34:55,809 [Thread-3:3904] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 8, in home
+    return render(request, "wechat/index.html", {"userinfo":usr})
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[headimgurl]' from 'userinfo[headimgurl]'
+2017-11-02 14:34:57,122 [Thread-4:8880] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 8, in home
+    return render(request, "wechat/index.html", {"userinfo":usr})
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[headimgurl]' from 'userinfo[headimgurl]'
+2017-11-02 14:34:57,894 [Thread-5:8844] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 8, in home
+    return render(request, "wechat/index.html", {"userinfo":usr})
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[headimgurl]' from 'userinfo[headimgurl]'
+2017-11-02 14:36:13,285 [Thread-3:6672] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 9, in home
+    return render(request, "wechat/index.html", {"userinfo":usr})
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[headimgurl]' from 'userinfo[headimgurl]'
+2017-11-02 14:36:14,693 [Thread-4:7404] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 9, in home
+    return render(request, "wechat/index.html", {"userinfo":usr})
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[headimgurl]' from 'userinfo[headimgurl]'
+2017-11-02 14:38:49,930 [Thread-3:8860] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 9, in home
+    print(usr["headimgurl"])
+TypeError: string indices must be integers
+2017-11-02 14:38:51,244 [Thread-4:7768] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 9, in home
+    print(usr["headimgurl"])
+TypeError: string indices must be integers
+2017-11-02 14:40:07,908 [Thread-3:5344] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 9, in home
+    print(usrs["headimgurl"])
+TypeError: string indices must be integers
+2017-11-02 14:41:51,480 [Thread-3:8352] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usrs = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:43:22,556 [Thread-3:1828] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usrs = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:44:59,967 [Thread-9:7696] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usrs = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:45:39,433 [Thread-3:8084] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usrs = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:45:40,589 [Thread-4:7576] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 7, in home
+    usrs = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:46:35,001 [Thread-3:8104] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 8, in home
+    usrs = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:46:36,102 [Thread-4:7364] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 8, in home
+    usrs = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:46:36,775 [Thread-5:7300] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 8, in home
+    usrs = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:47:51,103 [Thread-3:8736] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 8, in home
+    usrs = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:50:09,351 [Thread-3:4480] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 10, in home
+    usrs = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:50:37,890 [Thread-3:1720] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 10, in home
+    print("------",u["city"])
+TypeError: string indices must be integers
+2017-11-02 14:51:12,820 [Thread-3:696] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 11, in home
+    print("------",us["city"])
+TypeError: string indices must be integers
+2017-11-02 14:53:04,070 [Thread-3:7364] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 12, in home
+    usrs = json.loads(str)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2017-11-02 14:54:32,376 [Thread-3:2128] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 12, in home
+    name = us["nickname"]
+TypeError: string indices must be integers
+2017-11-02 14:56:15,526 [Thread-3:7944] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 12, in home
+    name = us['nickname']
+TypeError: string indices must be integers
+2017-11-02 14:57:06,653 [Thread-3:5236] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 12, in home
+    name = us['openid']
+TypeError: string indices must be integers
+2017-11-02 14:58:20,500 [Thread-5:8456] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 12, in home
+    name = us['openid']
+TypeError: string indices must be integers
+2017-11-02 15:03:24,761 [Thread-3:8412] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 9, in home
+    name = str['openid']
+TypeError: string indices must be integers
+2017-11-02 15:04:34,631 [Thread-3:7644] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 11, in home
+    return render(request, "wechat/index.html", {"userinfo":usrs})
+NameError: name 'usrs' is not defined
+2017-11-02 15:05:04,831 [Thread-3:7816] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 11, in home
+    return render(request, "wechat/index.html", {"userinfo":date})
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '["headimgurl"]' from 'userinfo["headimgurl"]'
+2017-11-02 15:05:06,023 [Thread-4:6708] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/home/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\home.py", line 11, in home
+    return render(request, "wechat/index.html", {"userinfo":date})
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '["headimgurl"]' from 'userinfo["headimgurl"]'
+2017-11-02 15:13:22,382 [Thread-3:5388] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/home/
+2017-11-02 15:13:23,878 [Thread-4:7456] [django.request:152] [base:get_response] [WARNING]- Not Found: /oa/home/
+2017-11-02 16:38:26,791 [Thread-34:3268] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/loginAction/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\login.py", line 15, in loginResult
+    name = request.POST["name"]
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'name'"
+2017-11-02 16:38:28,338 [Thread-37:612] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/loginAction/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\login.py", line 15, in loginResult
+    name = request.POST["name"]
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'name'"
+2017-11-02 16:38:29,409 [Thread-40:7188] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/loginAction/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\login.py", line 15, in loginResult
+    name = request.POST["name"]
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'name'"
+2017-11-02 16:38:30,315 [Thread-43:3408] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/loginAction/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\login.py", line 15, in loginResult
+    name = request.POST["name"]
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'name'"
+2017-11-02 16:38:30,830 [Thread-46:2296] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/loginAction/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\login.py", line 15, in loginResult
+    name = request.POST["name"]
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'name'"
+2017-11-02 16:38:31,643 [Thread-49:7808] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/loginAction/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\login.py", line 15, in loginResult
+    name = request.POST["name"]
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'name'"
+2017-11-02 16:38:32,278 [Thread-52:7692] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/loginAction/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\login.py", line 15, in loginResult
+    name = request.POST["name"]
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'name'"
+2017-11-02 16:38:33,255 [Thread-55:8796] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /oa/loginAction/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\dev\pythonHome\wechat\oa\views\login.py", line 15, in loginResult
+    name = request.POST["name"]
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'name'"
+2017-11-23 15:11:54,086 [Thread-4:7456] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "D:\dev\pythonHome\wechat\oa\middleware.py", line 11, in process_request
+    if str(request.path).index("/oa/"):
+ValueError: substring not found
+2017-11-23 15:12:00,110 [Thread-5:6556] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /gift/login/
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "D:\dev\pythonHome\wechat\oa\middleware.py", line 11, in process_request
+    if str(request.path).index("/oa/"):
+ValueError: substring not found
+2017-11-23 15:12:00,362 [Thread-6:6328] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Wuhen\AppData\Local\Programs\Python\Python36\lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "D:\dev\pythonHome\wechat\oa\middleware.py", line 11, in process_request
+    if str(request.path).index("/oa/"):
+ValueError: substring not found

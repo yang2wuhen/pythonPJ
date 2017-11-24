@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    {% load staticfiles %}
+    <title>wechat</title>
+    <link href="{% static "css/weui.min.css" %}" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+    <div class="weui-media-box__hd">
+        <img class="weui-media-box__thumb" src="{{userinfo.headimgurl}}" alt="">
+    </div>
+    <div class="weui-media-box__bd">
+        <h4 class="weui-media-box__title">{{userinfo.nickname}}</h4>
+        <p class="weui-media-box__desc">{{userinfo.province}} {{userinfo.city}}</p>
+    </div>
+</a>
+
+
+
+    <div class="weui-tabbar">
+        <a href="javascript:;" class="weui-tabbar__item weui-bar__item_on">
+                    <span style="display: inline-block;position: relative;">
+                        <img src="{% static "images/icon_nav_icons.png" %}"
+                             alt="hh" class="weui-tabbar__icon">
+                    </span>
+            <p class="weui-tabbar__label">微信</p>
+        </a>
+
+        <a href="javascript:;" class="weui-tabbar__item weui-bar__item_on">
+                    <span style="display: inline-block;position: relative;">
+                        <img src="{% static "images/icon_nav_icons.png" %}"
+                             alt="hh" class="weui-tabbar__icon">
+                    </span>
+            <p class="weui-tabbar__label">环信</p>
+        </a>
+
+        <a href="javascript:;" class="weui-tabbar__item weui-bar__item_on">
+                    <span style="display: inline-block;position: relative;">
+                        <img src="{% static "images/icon_nav_icons.png" %}"
+                             alt="hh" class="weui-tabbar__icon">
+                    </span>
+            <p class="weui-tabbar__label">微博</p>
+        </a>
+
+    </div>
+
+
+
+</body>
+
+</html>

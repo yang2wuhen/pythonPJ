@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>"主页"</title>
+</head>
+<body>
+    {%if user %}
+        您的电话号码是 {{user.userPhone}}
+    {% endif %}
+
+    {% if index %}
+        您是第{{index}}位来访者
+    {% endif %}
+
+</body>
+</html>
